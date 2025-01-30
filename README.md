@@ -1,2 +1,2 @@
-# javascript-udemy
- Estou Aprendendo JavaScript
+# javascript
+ aprendendo a programar em javascript
