@@ -1,2 +1,0 @@
-Number.parseInt(n) = número real para número inteiro
-Number.parseFloat(n) = converter para real
