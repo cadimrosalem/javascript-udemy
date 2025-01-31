@@ -516,6 +516,117 @@
        console.log(res);
        */
       
+       
+       /*
+       Conversão e Coersão de Booleanos
+
+       let verdadeiro = true;
+       let falso = false;
+
+       Booleano para número
+
+       let numVerdadeiro = Number(verdadeiro);
+       let numFalso = Number(falso);
+
+       console.log(numVerdadeiro); // 1
+       console.log(numFalso);      // 0          
+
+       let num = 42;
+       let booleanoNum = Boolean(num);
+
+       console.log(booleanoNum); // true, qualquer número diferente de 0 é true.
+
+       num = 0;
+       booleanoNum = Boolean(num); 
+
+       console.log(booleanoNum);
+       */
+
+       /*
+       Coersão de Booleano para String
+
+       let booleanoV = true;
+       console.log(booleanoV);
+
+       let stringBooleanoV = "O valor é " + booleanoV + ".";
+       console.log(stringBooleanoV); // true
+
+       let booleanoF = false;
+       console.log(booleanoF);
+
+       let stringBooleanoF = "O valor é " + booleanoF + ".";
+       console.log(stringBooleanoF); // false
+       */
+
+       /*
+       String para Booleano 
+
+       const txt = "Olá!"; // Com a string vazia = false
+       const booleanoTxt = Boolean(txt);
+       console.log(booleanoTxt); // true
+       */
+
+       /*
+        Valores Falsos
+       0
+       undefined
+       null
+       NaN
+       ""
+
+       let var1;
+       console.log(typeof var1);   // undefined
+       console.log(Boolean(var1)); // false
+
+       let var2 = null;
+       console.log(typeof var2);   // object
+       console.log(Boolean(var2)); // false
+
+       let var3 = 10 / "ricardo";
+       console.log(var3);          // NaN
+       console.log(typeof var3);   // number
+       console.log(Boolean(var3)); // false
+
+       let var4 = "";
+       console.log(var4);
+       console.log(typeof var4);   // string
+       console.log(Boolean(var4)); // false
+
+
+       let num = 4; 
+
+       if (num){
+        console.log("entrou no IF");
+       } else {
+        console.log("entrou no ELSE");
+       }
+
+       let txt = "";
+
+       if (txt){
+        console.log("entrou no IF");
+       } else {
+        console.log("entrou no ELSE");
+       }
+
+       let valorDeTeste;
+       
+       if (valorDeTeste){
+        console.log("entrou no IF");
+       } else {
+        console.log("entrou no ELSE");
+       }
+       */
+
+       
+
+
+
+
+
+
+
+       
 
        
       
