@@ -618,6 +618,35 @@
        }
        */
 
+       /*
+       Diferença entre == e ===
+       == igualdade abstrata (compara os valores)
+       === igualdade absoluta / estrita (compara o tipo)
+       
+
+       const num = 5;
+       const string = "5";
+       console.log(typeof num);
+       console.log(typeof string);
+
+       console.log(num == string); // true
+       console.log(num === string); // false (não considera iguais os valores que são de tipos diferentes)
+       */
+
+       const idade = '18';
+       if (idade == 18){
+        console.log("Você já pode tirar a carta.");
+       }
+
+       const senha = 1231244;
+       const valorDig = prompt('Digite a senha');
+
+       if (Number(valorDig) === (senha)){
+        console.log('Acesso concedido');
+       } else{
+        console.log('Acesso negado');
+       }
+
        
 
 
