@@ -1,0 +1,37 @@
+
+&& = e
+|| = ou
+! = não
+
+const possuiCnh = true;
+const maiorDe21 = true;
+
+if (possuiCnh && maiorDe21){
+   console.log('pode ser motorista');
+} else{
+   console.log('Não pode');
+}
+
+
+|| = vai ser sempre verdadeiro se pelo menos 1 das afirmações for verdadeira.
+
+let chovendo = true;
+let escuro = true;
+
+if (chovendo || escuro){
+   console.log('Ligo os faróis');
+}
+else {
+   console.log('Não ligo os faróis');
+}
+
+
+! = é usado para inverter o valor de uma afirmação.
+
+se for verdadeira, vira falsa e vice-versa.
+
+const possuiAntecedentesCriminais = true;
+console.log(!possuiAntecedentesCriminais); // não possui antecedentes criminais.
+
+
+

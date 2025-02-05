@@ -631,7 +631,7 @@
 
        console.log(num == string); // true
        console.log(num === string); // false (não considera iguais os valores que são de tipos diferentes)
-       */
+       
 
        const idade = '18';
        if (idade == 18){
@@ -646,6 +646,66 @@
        } else{
         console.log('Acesso negado');
        }
+       */
+      
+       /*
+       Lógica Booleana
+       And Or Not
+       && || !
+       
+       
+       // And &&
+
+       const possuiCnh = true;
+       const maisDe21Anos = true;
+
+       console.log(possuiCnh && maisDe21Anos); // true
+
+       if (possuiCnh && maisDe21Anos){
+        console.log('Você pode ser motorista profissional');
+       } else{
+        console.log('Não pode');
+       }
+       
+       // Or ||
+
+       const escuro = true;
+       const chovendo = true;
+
+       console.log(escuro || chovendo);
+
+       if (escuro || chovendo){
+        console.log('Ligue os faróis!');
+       } else{
+        console.log('Não precisa ligar os faróis');
+       }
+       
+      
+       // Not !
+
+       const possuiAntecedentesCriminais = true;
+       console.log(possuiAntecedentesCriminais);
+       console.log(!possuiAntecedentesCriminais);
+
+       if (!possuiAntecedentesCriminais){
+        console.log('Pode tirar passaporte!');
+       } else{
+        console.log('Não pode tirar passaporte!');
+       }
+       */
+      
+       const possuiIdentidade = true;
+       const br = true;
+       const maiorIdade = true;
+       const possuiAntecedentesCriminais = false;
+       const taxasPagas = true;
+
+       if (possuiIdentidade && br && maiorIdade && !possuiAntecedentesCriminais && taxasPagas){
+        console.log('Pode tirar o passaporte!');
+       } else{
+        console.log('Não pode tirar o passaporte!');
+       }
+
 
        
 
