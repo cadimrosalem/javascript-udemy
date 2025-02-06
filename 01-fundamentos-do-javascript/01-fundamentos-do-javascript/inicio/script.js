@@ -694,6 +694,7 @@
        }
        */
       
+       /*
        const possuiIdentidade = true;
        const br = true;
        const maiorIdade = true;
@@ -704,6 +705,61 @@
         console.log('Pode tirar o passaporte!');
        } else{
         console.log('Não pode tirar o passaporte!');
+       }
+       */
+      
+       // Operadores lógicos - Ampliação
+
+       // Declaração das variáveis
+       const idade = 25;
+       const carteira = true;
+       const carro = false;
+       const bicicleta = true;
+       const pressa = false;
+
+       // Verificar se a pessoa tem idade e se possui carteira de motorista
+       if (idade >= 18 && carteira){
+        console.log("Pode dirigir legalmente!");
+       } else {
+        console.log('Não pode dirigir legalmete!');
+       }
+
+       // Possui carro e carteira
+       if (carro && carteira){
+        console.log('Pode dirigir!');
+       } else{
+        console.log('Não pode dirigir!');
+       }
+
+       // Não possui carro e nem carteira
+       if (!carro && !carteira){
+        console.log('Procure outra forma de se locomover!');
+       }
+       
+       // Tem pressa, idade e carro... vá de carro
+       if (pressa && carro && carteira && idade >= 18){
+        console.log('Vá de carro');
+       }
+
+       // Tem pressa, mas não tem carro
+       if (pressa && !carro){
+        console.log('É melhor chamar um taxi!');
+       }
+
+       // Não tem pressa e não tem carro
+       if (!pressa && !carro){
+        console.log('Melhor ir a pé');
+       }
+
+       if (!pressa && carro && carteira && idade >= 18){
+        console.log("Pegue seu carro e vá devagar");
+       }
+
+       // Tem meio de transporte?
+       if (carro || bicicleta){
+        console.log('Você possui um meio de transporte');
+       } else{
+        console.log('Você não possui um meio de transporte');
        }
 
 
