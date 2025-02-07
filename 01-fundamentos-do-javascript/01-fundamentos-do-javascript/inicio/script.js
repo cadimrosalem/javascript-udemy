@@ -708,7 +708,8 @@
        }
        */
       
-       // Operadores lógicos - Ampliação
+       /* 
+       Operadores lógicos - Ampliação
 
        // Declaração das variáveis
        const idade = 25;
@@ -761,6 +762,73 @@
        } else{
         console.log('Você não possui um meio de transporte');
        }
+       */
+      
+       /*
+       If, Else e Else if
+
+       let idade = 18;
+
+       if (idade > 18){ // maior de 18
+        console.log('Você tem mais de 18 anos.');
+       } else if (idade == 18){ // 18 ou menos
+        console.log('Você tem exatamente 18 anos.');        
+       } else{
+        console.log('Você tem menos de 18 anos.');
+       }
+       */
+      
+       /*
+       acima de 100 reais, desconto de 10%
+       entre 100 e 50, desconto de 5%
+       abaixo de 50, sem desconto
+
+       let preco = 100;
+
+       if (preco >= 100){
+        console.log(`Desconto de 10% para protudos acima de ${preco} reais.`);
+       } else if (preco >= 50){
+        console.log(`Desconto de 5% para produtos acima de ${preco} reais.`);
+       } else{
+        console.log(`Não temos desconto para produtos de ${preco} reais.`)
+       }
+       */
+
+       /*      
+       let preco = 51;
+
+       if (preco > 100){
+        console.log(`Desconto de 10%`);
+       }
+
+       if (preco > 50 && preco <= 100){
+        console.log(`Desconto de 5%`);
+       }
+
+       if (preco <= 50){
+        console.log(`Sem desconto`);
+       }
+       */
+
+       // media > 7 bom
+       // entre 5 e 7 razoável
+       // abaixo de 5 ruim
+
+       let media = 9;
+
+       if (media >= 9){
+        console.log('Você é um ótimo aluno');
+       } else if (media > 7){
+        console.log('Você é um bom aluno');
+       } else if (media >= 5){
+        console.log('Você é um aluno razoável');
+       } else if (media > 2){
+        console.log('Você é um aluno ruim');
+       } else{
+        console.log('Você é um aluno péssimo');
+       }
+
+       
 
 
        
