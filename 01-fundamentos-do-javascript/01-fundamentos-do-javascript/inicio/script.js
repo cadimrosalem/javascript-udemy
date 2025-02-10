@@ -810,6 +810,7 @@
        }
        */
 
+       /*
        // media > 7 bom
        // entre 5 e 7 razoável
        // abaixo de 5 ruim
@@ -827,6 +828,47 @@
        } else{
         console.log('Você é um aluno péssimo');
        }
+       */
+
+       /*
+       Switch
+
+       switch (valor){
+        case opcao1:
+                // Código a ser executado se valor for igual a opção1
+                break;
+        case opcao2:
+                // Código a ser executado se valor for igual a opção
+                break;
+        case opcao3:
+                // Código a ser executado se valor for igual a opção3
+                break;
+        default:
+                // Código a ser executado se valor não corresponder a nenhuma opção
+                break;        
+       }
+       
+  
+       const carro = "wv";
+        
+       switch (carro){
+        case 'ford':
+                console.log('Você escolheu um Ford');
+                break;
+        case 'chevrolet':
+                console.log('Você escolheu Chevrolet');
+                break;
+        case 'bmw':
+                console.log('Você escolheu uma BMW');
+                break;
+        case 'honda':
+                console.log('Você escolheu um Honda');
+                break;
+        default:
+                console.log('Você não escolheu nenhuma opção válida')
+                break;
+       }
+       */ 
 
        
 
