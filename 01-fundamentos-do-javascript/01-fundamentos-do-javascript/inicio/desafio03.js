@@ -1,3 +1,4 @@
+/*
 const fruta = 'abacaxi';
 
 if (fruta === 'maçã'){
@@ -9,3 +10,4 @@ if (fruta === 'maçã'){
 } else{
     console.log(`A fruta não é maçã, nem banana, nem laranja, é ${fruta}!`);
 }
+*/
