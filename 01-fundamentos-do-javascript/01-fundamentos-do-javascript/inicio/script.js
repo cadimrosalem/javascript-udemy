@@ -868,7 +868,70 @@
                 console.log('Você não escolheu nenhuma opção válida')
                 break;
        }
-       */ 
+       */
+
+      
+       /*
+       Operador Condicional Ternário (?:.)
+
+       let msg;
+       const idade = 18;
+
+       if (idade >= 18){
+        msg = 'Maior de idade';
+       } else{
+        msg = 'Menor de idade';
+       }
+
+       console.log(msg);
+       */
+
+       /*
+       sintaxe
+       condição ? valorSeVerdadeira : ValorSeFalso;       
+
+       let msg;
+       const idade = 18;
+
+       msg = idade >= 18 ? 'Maior de idade' : 'Menor de idade';
+       console.log(msg);
+       */
+
+       /*
+       const num = 18;
+       let msg = '';
+       
+       if (num % 2 === 0){
+        msg = 'par';
+       } else{
+        msg = 'ímpar';
+       }
+        
+       msg = num % 2 === 0 ? 'par' : 'ímpar';
+
+       console.log(msg);
+       */
+
+       /*
+       saudacao
+       Bom dia hora < 12
+       Boa tarde >= 12
+       
+
+       let hora = 12;
+       const saudacao = hora < 12 ? 'Bom dia' : 'Boa tarde';
+
+       console.log(saudacao);
+       */
+
+       /*
+       let idade = 18;
+       let ver = idade >= 18 ? 'Maior de idade' : 'Menor de idade';
+       console.log(`Você é ${ver}`);
+       */
+
+       let idade = 18;
+       console.log(`Você é ${idade >= 18 ? 'Maior de idade' : 'Menor de idade'}`);
 
        
 
