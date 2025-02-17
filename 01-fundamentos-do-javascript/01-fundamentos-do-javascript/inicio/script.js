@@ -928,10 +928,13 @@
        let idade = 18;
        let ver = idade >= 18 ? 'Maior de idade' : 'Menor de idade';
        console.log(`Você é ${ver}`);
-       */
+       
 
        let idade = 18;
        console.log(`Você é ${idade >= 18 ? 'Maior de idade' : 'Menor de idade'}`);
+       */
+
+       
 
        
 
