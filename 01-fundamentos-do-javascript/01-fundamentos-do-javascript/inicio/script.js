@@ -1,3 +1,5 @@
+        'use strict';
+        
         /*
         Alerta de Olá, Mundo! 
         alert("Olá, Mundo!");
@@ -933,6 +935,23 @@
        let idade = 18;
        console.log(`Você é ${idade >= 18 ? 'Maior de idade' : 'Menor de idade'}`);
        */
+
+       /*
+       Modo Estrito (strict mode)
+       'use strict';
+       */
+
+       let idade = 20;
+       let msg;
+
+       if (idade >= 18){
+        msg = 'Você é maior de idade';
+       } else{
+        msg = 'Você é menor de idade';
+       }
+
+       console.log(msg);
+       
 
        
 
