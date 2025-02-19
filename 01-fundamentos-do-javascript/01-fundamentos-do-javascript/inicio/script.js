@@ -939,7 +939,7 @@
        /*
        Modo Estrito (strict mode)
        'use strict';
-       */
+       
 
        let idade = 20;
        let msg;
@@ -951,6 +951,46 @@
        }
 
        console.log(msg);
+       */
+
+       /*
+       function saudacao(){
+        console.log('Olá, pessoal!');
+       }
+
+       saudacao();
+       saudacao();
+       saudacao();
+       */
+
+       /*
+       function padaria(farinha, agua){
+        console.log(farinha, agua);
+        const pao = `Fizemos pães usando ${farinha} de farinha e ${agua} de água`;
+        return pao;
+       }
+
+       console.log(padaria(1, 2));
+       console.log(padaria(5, 8));
+       */
+
+       /*
+       Função de Dobro
+       function dobra(valor){
+        return valor * 2;
+       }
+
+       console.log(dobra(4));
+       */
+
+       /*
+       Função de Soma
+       function soma(num1, num2){
+        return num1 + num2;
+       }
+
+       console.log(soma(2, 4));
+       */
        
 
        
