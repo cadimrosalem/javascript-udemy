@@ -991,9 +991,38 @@
 
        console.log(soma(2, 4));
        */
-       
 
-       
+       /*
+       Diferença entre Declaração de Função e Expressão de Função
+
+       // Declaração de Função       
+       function saudacao1(nome){
+        console.log(`Olá, ${nome}!`);
+       }
+
+       saudacao1('Maria');
+
+       // Expressão de Função
+       let saudacao2 = function(nome){
+        console.log(`Olá, ${nome}!`);
+       }
+
+       saudacao2('João');
+       */       
+
+       // Declaração de Função
+       function dobra1(num){
+        return num * 2;
+       }
+
+       console.log(dobra1(3));
+
+       // Exmpressão de Função
+       const dobra2 = function(num){
+        return num * 2;
+       }
+
+       console.log(dobra2(7)); 
 
        
 
