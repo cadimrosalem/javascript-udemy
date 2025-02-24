@@ -1008,7 +1008,7 @@
        }
 
        saudacao2('João');
-       */       
+             
 
        // Declaração de Função
        function dobra1(num){
@@ -1023,7 +1023,55 @@
        }
 
        console.log(dobra2(7)); 
+       */
 
+       /*
+       Arrow Functions
+
+       // Declarar função "Normal"
+       function saudacao1(nome){
+        return `Olá, ${nome}`;
+       }
+
+       console.log(saudacao1('João' + '!'));
+
+       // Declarar funçção Arrow
+       const saudacao2 = (nome) =>{
+        return `Olá, ${nome}`+ '!';
+       }
+       console.log(saudacao2('Maria'));
+
+
+       const saudacao3 = (nome) => `Olá, ${nome}` + '!';      
+       console.log(saudacao3('Ricardo'));
+       */
+
+       /*
+       Versão 1
+       function dobro(num){
+        return num * 2;
+       }
+       
+       console.log(dobro(25));
+       
+
+       // Versão 2
+       const dobro = (num) => num * 2;
+       console.log(dobro(25));
+       */
+
+       /*
+       function soma(a, b){
+        return a + b;
+       }
+       console.log(soma(2, 4));
+
+       const soma2 = (a, b) => a + b;
+       console.log(soma2(2, 4));
+       */
+
+
+       
        
 
 
