@@ -1071,6 +1071,38 @@
        */
 
 
+       /*
+       Funções que chamam funções
+       function dobro(num){
+        return num * 2;
+       }
+
+       function par(num){
+        if (num % 2 === 0){
+                return true;
+        } else{
+                return false;
+        }
+       }
+
+       function verNum(num){
+        const dobroNum = dobro(num);
+        const resPar = par(num);
+        
+        if (resPar){
+                console.log(`O número ${num} é par, e seu dobro é ${dobroNum}`)
+        } else{
+                console.log(`O número ${num} é ímpar, e seu dobro é ${dobroNum}`)
+        }
+       }
+
+       verNum(15);
+       verNum(7);
+       verNum(6);
+       */
+       
+
+
        
        
 
