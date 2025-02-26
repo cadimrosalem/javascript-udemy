@@ -1100,6 +1100,55 @@
        verNum(7);
        verNum(6);
        */
+
+
+       /*
+       Funções Recursivas
+       function fatorial(num){
+        if (num === 1){
+                return 1;
+        } else{
+                return num * fatorial(num - 1);                
+        }
+       }
+
+       console.log(fatorial(5));
+       // 5! = 5 x 4 x 3 x 2 x 1
+
+       console.log(fatorial(4));
+       // 4! = 4 x 3 x 2 x 1
+
+       console.log(fatorial(3));
+       // 3! = 3 x 2 x 1
+
+       console.log(fatorial(2));
+       // 2! = 2 x 1
+       */
+
+
+       /*
+       Sequência Fibonacci
+       1 1 2 3 5 8 13 21
+       */
+
+       function fibonacci(num){
+        if (num <= 1){
+                return num;
+        } else{
+                return fibonacci(num - 1) + fibonacci(num - 2);
+        }
+       }
+
+       console.log(fibonacci(6));
+       console.log(fibonacci(7));
+       console.log(fibonacci(8));
+       console.log(fibonacci(9));
+       console.log(fibonacci(10));
+
+
+
+
+
        
 
 
