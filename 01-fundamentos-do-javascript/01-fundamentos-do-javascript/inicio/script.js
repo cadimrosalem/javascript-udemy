@@ -1129,7 +1129,7 @@
        /*
        Sequência Fibonacci
        1 1 2 3 5 8 13 21
-       */
+       
 
        function fibonacci(num){
         if (num <= 1){
@@ -1144,6 +1144,30 @@
        console.log(fibonacci(8));
        console.log(fibonacci(9));
        console.log(fibonacci(10));
+       */
+
+       /*
+       Revisão de Funções
+
+       // Declaração de Função
+       function saudacaoDec(nome){
+        return `Olá, ${nome}! Seja bem-vindo(a).`;
+       }
+
+       console.log(saudacaoDec('Ricardo'));
+
+       // Expressão de Função
+       const saudacaoExp = function(nome){
+        return `Olá, ${nome}! Seja bem-vindo(a).`;
+       }
+
+       console.log(saudacaoExp('Maria'));
+
+       // Arrow Function
+       const saudacaoAr = (nome) => `Olá, ${nome}! Seja bem-vindo(a).`;
+       
+       console.log(saudacaoAr('João'));
+       */
 
 
 
