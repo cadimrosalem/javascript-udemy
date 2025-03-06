@@ -1,5 +1,7 @@
 'use strict';
 
+/*
+Desafio Sopa de Swtich
 let vegetais = 4;
 let carnes = 3;
 let temperos = 4;
@@ -17,4 +19,5 @@ switch (true){
     default:
         console.log('Você não escolheu ingredientes suficientes para a sopa!');        
 }
+*/
     
