@@ -1,6 +1,7 @@
 'use strict';
 
-// Desafio 6
+/*
+Desafio 6
 
 let porta1 = false;
 let porta2 = false;
@@ -38,6 +39,7 @@ abrirPorta1();
 abrirPorta2();
 abrirPorta3();
 res();
+*/
 
 
 

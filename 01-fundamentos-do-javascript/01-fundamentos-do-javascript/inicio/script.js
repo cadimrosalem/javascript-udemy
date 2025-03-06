@@ -840,7 +840,7 @@
                 // Código a ser executado se valor for igual a opção1
                 break;
         case opcao2:
-                // Código a ser executado se valor for igual a opção
+                // Código a ser executado se valor for igual a opção2
                 break;
         case opcao3:
                 // Código a ser executado se valor for igual a opção3
