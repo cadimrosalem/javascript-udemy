@@ -1169,6 +1169,29 @@
        console.log(saudacaoAr('João'));
        */
 
+       /*
+       Arrays
+       const nomes = ["Ana", "João", "Maria"];
+
+       console.log(nomes);
+
+       console.log(nomes[1]);
+
+       // Tipos de dados
+       const idades = [12, 18, 25];
+
+       console.log(idades);
+
+       // Array mista
+       const pessoa = ["Maria", 35, function(){console.log("Olá!");}];
+
+       console.log(pessoa);
+       */
+
+       // Estados Brasileiros
+       const estados = ["AC", "AL", "AP", "AM"];
+
+
 
 
 
