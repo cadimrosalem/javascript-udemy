@@ -1188,8 +1188,57 @@
        console.log(pessoa);
        */
 
-       // Estados Brasileiros
+       /*
+       Estados Brasileiros
        const estados = ["AC", "AL", "AP", "AM"];
+       */
+
+       /*
+       Funções com Arrays:
+       Push - UnShift - Pop - Shift - IndexOf - Includes
+
+       const frutas = ["Maçã", "Banana", "Laranja"];
+       console.log(frutas);
+
+       // Adicionar Morango
+       frutas.push("Morango"); // No final
+       console.log(frutas);
+
+       // Adicionar Limão
+       frutas.unshift("Limão"); // No início
+       console.log(frutas);
+
+       // Pop
+       frutas.pop(); // Remove o último elemento do Array
+       console.log(frutas);
+
+       // Shift
+       frutas.shift(); // Remove o primeiro elemento do Array
+       console.log(frutas);
+
+       // IndexOf
+       console.log(frutas.indexOf('Banana')); // Retorna o índice ou -1 caso não encontre
+
+       // Includes
+       console.log(frutas.includes('Banana')); // Retorna se encontrou ou não
+       */
+
+       /*
+       Estados da região Sul
+       const esDoSul = ["RS", "SC", "PR"];
+       let esFornecido = "RS";
+
+       if (esDoSul.includes(esFornecido)){
+        console.log('Encontrado');
+       } else{
+        console.log('Não encontrado');
+       }
+       */ 
+
+
+
+
+
 
 
 
