@@ -1233,7 +1233,39 @@
        } else{
         console.log('Não encontrado');
        }
-       */ 
+       */
+      
+       // Números por extenso (de 0 a 19) com Arrays
+       function numPorExt(num){
+        if (num < 0 || num > 19){
+                return "";
+        }
+        const ext = [];
+        ext[0] = "zero";
+        ext[1] = "um";  
+        ext[2] = "dois";
+        ext[3] = "três";
+        ext[4] = "quatro";
+        ext[5] = "cinco";
+        ext[6] = "seis";
+        ext[7] = "sete";
+        ext[8] = "oito";
+        ext[9] = "nove";
+        ext[10] = "dez";
+        ext[11] = "onze";
+        ext[12] = "doze";
+        ext[13] = "treze";
+        ext[14] = "quatorze";
+        ext[15] = "quinze";
+        ext[16] = "dezesseis";
+        ext[17] = "dezesete";
+        ext[18] = "dezoito";
+        ext[19] = "dezenove";
+        
+        return ext[num];
+       }
+
+       console.log(numPorExt(19));
 
 
 
