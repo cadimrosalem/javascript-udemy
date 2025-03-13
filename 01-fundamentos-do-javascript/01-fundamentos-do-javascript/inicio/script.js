@@ -1235,8 +1235,7 @@
        }
        */
       
-       /*
-       Números por extenso (de 0 a 19) com Arrays
+       // Números por extenso (de 0 a 19) com Arrays
        function numPorExt(num){
         if (num < 0 || num > 19){
                 return "";
@@ -1267,73 +1266,6 @@
        }
 
        console.log(numPorExt(19));
-       */
-
-        /*
-        Desafio 9
-        Números por extenso (de 0 a 19) com Arrays
-        
-        function numPorExt(num){
-         if (num < 0 || num > 100){
-            return "";
-         }
-         const ext = [];
-         ext[0] = "zero";
-         ext[1] = "um";  
-         ext[2] = "dois";
-         ext[3] = "três";
-         ext[4] = "quatro";
-         ext[5] = "cinco";
-         ext[6] = "seis";
-         ext[7] = "sete";
-         ext[8] = "oito";
-         ext[9] = "nove";
-         ext[10] = "dez";
-         ext[11] = "onze";
-         ext[12] = "doze";
-         ext[13] = "treze";
-         ext[14] = "quatorze";
-         ext[15] = "quinze";
-         ext[16] = "dezesseis";
-         ext[17] = "dezesete";
-         ext[18] = "dezoito";
-         ext[19] = "dezenove";
-        
-         if (num > 0 && num <= 19){
-            return ext[num];
-         }
-    
-        const dezenaExtenso = [];
-        dezenaExtenso[2] = "vinte";
-        dezenaExtenso[3] = "trinta";
-        dezenaExtenso[4] = "quarenta";
-        dezenaExtenso[5] = "cinquenta";
-        dezenaExtenso[6] = "sessenta";
-        dezenaExtenso[7] = "setenta";
-        dezenaExtenso[8] = "oitenta";
-        dezenaExtenso[9] = "noventa";
-        
-        // número 78
-        let unidade = num % 10; // 8
-        let dezena = num - unidade; // 78 - 8
-        dezena = dezena / 10; // 70 / 10 = 7
-    
-        //console.log(num, unidade, dezena);
-        //console.log(num, ext[unidade], dezenaExtenso[dezena]);
-    
-         if (unidade === 0){
-            return dezenaExtenso[dezena];
-         }
-    
-        return `${dezenaExtenso[dezena]} e ${ext[unidade]}`;
-    
-       }
-    
-       //console.log(numPorExt(19));
-       console.log(numPorExt(37));
-       console.log(numPorExt(78));
-       console.log(numPorExt(40));
-       */
 
 
 
