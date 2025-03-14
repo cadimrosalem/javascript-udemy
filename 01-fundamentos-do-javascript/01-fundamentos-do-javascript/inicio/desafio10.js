@@ -1,3 +1,4 @@
+/*
 'use strict'
 
 // Desafio 10
@@ -103,3 +104,5 @@ console.log(numPorExtenso(401))
 console.log(numPorExtenso(785))
 console.log(numPorExtenso(340))
 console.log(numPorExtenso(444))
+*/
+
