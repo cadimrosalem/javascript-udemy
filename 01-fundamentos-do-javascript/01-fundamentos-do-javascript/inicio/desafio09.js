@@ -1,9 +1,10 @@
+/*
 'use strict';
 
-/*
+
 Desafio 9
 Números por extenso (de 0 a 19) com Arrays
-*/
+
 function numPorExtenso(num){
     if (num < 0 && num > 100){
         return "";
@@ -62,6 +63,9 @@ function numPorExtenso(num){
 }
 
 console.log(numPorExtenso(37));
+*/
+
+
 
 
 
