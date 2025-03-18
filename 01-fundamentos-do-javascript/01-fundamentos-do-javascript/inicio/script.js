@@ -1235,7 +1235,8 @@
        }
        */
       
-       // Números por extenso (de 0 a 19) com Arrays
+       /*
+       Números por extenso (de 0 a 19) com Arrays
        function numPorExt(num){
         if (num < 0 || num > 19){
                 return "";
@@ -1266,6 +1267,44 @@
        }
 
        console.log(numPorExt(19));
+       */
+
+       /*
+       Objetos
+
+       // Exemplo de Array
+       const camisetas = ["Vermelha", "Azul", "Aramela"];
+       camisetas[3] = "Verde";
+       console.log(camisetas);
+
+       // Exemplo de objeto
+       const pessoa = {
+        nome: 'João',
+        idade: 25,
+        profissao: 'Engenheiro'   
+       };
+
+       pessoa.sobrenome = "Silva";
+       pessoa.nome = "Pedro";
+
+       console.log(pessoa);
+       console.log(pessoa.nome);
+       console.log(pessoa['nome']);
+       */
+
+       const carroArray = ["Vermelho", "Sedan", 2024];
+       carroArray[3] = "VW";
+
+       const carroObjeto = {
+        cor: 'Vermelho',
+        modelo: 'Sedan',
+        ano: 2024
+       }
+
+       carroObjeto.marca = "VW";
+
+       console.log(carroArray);
+       console.log(carroObjeto);
 
 
 

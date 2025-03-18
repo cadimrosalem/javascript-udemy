@@ -106,7 +106,8 @@ console.log(numPorExtenso(340))
 console.log(numPorExtenso(444))
 */
 
-// Forma mais simplificada
+/*
+Forma mais simplificada
 
 function unidadePorExtenso(num){
     if (num < 0){
@@ -253,6 +254,7 @@ console.log(numPorExtenso(40000));
 console.log(numPorExtenso(444444));
 console.log(numPorExtenso(1000));
 console.log(numPorExtenso(123456));
+*/
 
 
 
