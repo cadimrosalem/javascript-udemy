@@ -1325,60 +1325,42 @@
        let valor = 'cidade';
        console.log(pessoa[valor]);
        */
+
       
+       /*
+       O Objeto Math
 
+       const base = 2;
+       const expoente = 3;
+       const resultado = Math.pow(base, expoente); // calcula a potência, valor de um número elevado a um expoente
 
+       console.log(resultado);
 
+       const num = 16;
+       const raizQuadrada = Math.sqrt(num); // square root
+       console.log(raizQuadrada);
+       */
 
+       /*
+       Arredondar 
 
+       let num = 123456;
+       let part1 = Math.ceil(123456 / 1000); // Arredonda para cima
+       let part2 = Math.floor(123456 / 1000); // Arredonda para baixo
+       console.log(part1);
+       console.log(part2);
 
+       // Math.ceil
+       // Math.floor
+       */
 
+       /*
+       Valor Absoluto
+       // 5 -> 5
+       // -5 -> 5
 
+       let num = -5;
+       console.log(num);
+       console.log(Math.abs(num));
+       */
 
-
-
-       
-
-
-       
-       
-
-
-       
-
-
-
-
-
-
-
-       
-
-       
-      
-        
-
-
-
-
-
-        
-
-
-
-        
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        
