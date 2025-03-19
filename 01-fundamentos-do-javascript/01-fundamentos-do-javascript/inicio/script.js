@@ -1290,7 +1290,7 @@
        console.log(pessoa);
        console.log(pessoa.nome);
        console.log(pessoa['nome']);
-       */
+       
 
        const carroArray = ["Vermelho", "Sedan", 2024];
        carroArray[3] = "VW";
@@ -1305,6 +1305,27 @@
 
        console.log(carroArray);
        console.log(carroObjeto);
+       */
+
+       /*
+       Objeto: ponto ou colchete
+
+       const pessoa = {
+        'primeiro nome': 'João',
+        idade: 25,
+        cidade: 'São Paulo'
+       }
+
+       // Se os campos tiverem espaço, precisamos de colchetes
+       // Objetos possuem propriedades
+
+       console.log(pessoa["primeiro nome"]);  
+
+
+       let valor = 'cidade';
+       console.log(pessoa[valor]);
+       */
+      
 
 
 
