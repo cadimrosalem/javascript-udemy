@@ -1364,3 +1364,34 @@
        console.log(Math.abs(num));
        */
 
+       
+       /*
+       Métodos dos Objetos
+
+       const pessoa = {
+        nome: 'João',
+        idade: 25,
+        saudacao: function(nomeDePessoa){
+                console.log(this);
+                console.log(`Meu nome é ${this.nome} e tenho ${this.idade} anos.`)
+                console.log(`Olá, ${nomeDePessoa}. Tudo bem?`);
+        }
+       }
+       // this
+       console.log(pessoa);
+       pessoa.saudacao('João');
+       */       
+
+       const circulo = {
+        raio: 5,
+        area: 0,
+        calcularArea: function(){
+                console.log(this);
+                this.area = Math.PI * this.raio ** 2;
+                return this.area;
+        }
+       }
+
+       console.log(circulo.calcularArea());
+       console.log(circulo.area);
+
