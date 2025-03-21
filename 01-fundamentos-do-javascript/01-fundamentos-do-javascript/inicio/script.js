@@ -1380,7 +1380,7 @@
        // this
        console.log(pessoa);
        pessoa.saudacao('João');
-       */       
+        
 
        const circulo = {
         raio: 5,
@@ -1394,4 +1394,5 @@
 
        console.log(circulo.calcularArea());
        console.log(circulo.area);
+       */
 
