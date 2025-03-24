@@ -1,3 +1,4 @@
+/*
 'use strict';
 
 // Desafio 12 - Objetos e Carros
@@ -68,3 +69,4 @@ const carro3 = {
 
 carro3.verificarPreco();
 carro3.verificarVendido();
+*/
