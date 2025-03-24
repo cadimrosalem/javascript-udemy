@@ -1,3 +1,4 @@
+/* 
 'use strict';
 
 // Desafio 11 - Objetos e RPG
@@ -54,5 +55,6 @@ console.log(jogador1.atacar());
 console.log(jogador2.atacar());
 console.log(jogador3.atacar());
 console.log(jogador4.atacar());
+*/
 
 
