@@ -1396,10 +1396,19 @@
        console.log(circulo.area);
        */
 
-       // Estrutura de repetição For
+       
+       /*
+       Estrutura de repetição For
 
        for (let i = 1; i <= 10; i++){
         console.log(i); 
        }
+       */
+
+
+
+
+
+       
 
 
