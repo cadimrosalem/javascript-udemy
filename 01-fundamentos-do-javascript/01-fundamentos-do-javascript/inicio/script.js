@@ -1395,20 +1395,15 @@
        console.log(circulo.calcularArea());
        console.log(circulo.area);
        */
-
-       
+      
        /*
-       Estrutura de repetição For
-
-       for (let i = 1; i <= 10; i++){
-        console.log(i); 
+       // Tabuada
+       const tabuada = function(num){
+        for (let i = 0; i <= 10; i++){
+                console.log(`${num} x ${i} = ${num * i}`);
+        }
        }
+
+       tabuada(2);
        */
-
-
-
-
-
-       
-
 
