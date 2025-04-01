@@ -1397,6 +1397,7 @@
        */
       
        /*
+
        // Tabuada
        const tabuada = function(num){
         for (let i = 0; i <= 10; i++){
@@ -1406,4 +1407,23 @@
 
        tabuada(2);
        */
+
+       // Calculando fatorial 
+
+       function calcularFatorial(num){ // 4
+        let calculo = 1;
+        for (let i = num; i >= 1; i--){   // i = 4             
+                calculo *= i; // 1 * 4, 12, 12 * 2 = 24, 24 * 1 = 24              
+        }
+        return calculo;
+       }
+
+       let fatorado = 4;
+       let fatorial = calcularFatorial(fatorado);
+
+       console.log(`O fatorial de ${fatorado} é ${fatorial}.`);
+
+      
+       
+
 
