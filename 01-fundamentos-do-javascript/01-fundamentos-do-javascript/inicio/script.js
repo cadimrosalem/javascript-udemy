@@ -1423,22 +1423,53 @@
        let fatorial = calcularFatorial(fatorado);
 
        console.log(`O fatorial de ${fatorado} é ${fatorial}.`);
-       */
+       */  
 
-       function calcularFatorial(num){
-        let calculo = 1;
-        for (let i = num; i >= 1; i--){
-                calculo = calculo * i;
-        }
-        return calculo;
+       /*
+       Loop de Array
+       const frutas = [
+        "banana",
+        "laranja",
+        "maçã",
+        "morango"        
+       ]
+
+       console.log(frutas.length);
+
+       // Loop de for para Array
+       for (let i = 0; i < frutas.length; i++){
+        console.log(`Adicionar à salada, ${frutas[i]}`);
        }
-
-       let fatorado = 4;
-       let fatorial = calcularFatorial(fatorado);
-
-       console.log(`O fatorial de ${fatorado} é ${fatorial}`);
-
-      
        
 
+       const automoveis = [
+        {marca: "Toyota",     modelo: "Corolla", ano: 2020},
+        {marca: "Honda",      modelo: "Civic",   ano: 2024},
+        {marca: "Volkswagen", modelo: "Golf",    ano: 2022},
+        {marca: "Chevrolet",  modelo: "Onix",    ano: 2023}
 
+       ]
+
+       console.log('--------------------');
+
+       for (let i = 0; i < automoveis.length; i++){
+
+        if (automoveis[i].marca === "Honda"){
+                continue; // fecha o laço
+        }
+
+        if (automoveis[i].marca === "Chevrolet"){
+                break; // sai do For!
+        }
+        
+        console.log(`Marca: ${automoveis[i].marca}`);
+        console.log(`Modelo: ${automoveis[i].modelo}`);
+        console.log(`Ano: ${automoveis[i].ano}`);
+        console.log('--------------------');
+       }
+
+       console.log('Fim do procedimento...');
+
+       // break e continue
+       */
+       
