@@ -1408,7 +1408,8 @@
        tabuada(2);
        */
 
-       // Calculando fatorial 
+       /*
+       Calculando fatorial 
 
        function calcularFatorial(num){ // 4
         let calculo = 1;
@@ -1422,6 +1423,20 @@
        let fatorial = calcularFatorial(fatorado);
 
        console.log(`O fatorial de ${fatorado} é ${fatorial}.`);
+       */
+
+       function calcularFatorial(num){
+        let calculo = 1;
+        for (let i = num; i >= 1; i--){
+                calculo = calculo * i;
+        }
+        return calculo;
+       }
+
+       let fatorado = 4;
+       let fatorial = calcularFatorial(fatorado);
+
+       console.log(`O fatorial de ${fatorado} é ${fatorial}`);
 
       
        
