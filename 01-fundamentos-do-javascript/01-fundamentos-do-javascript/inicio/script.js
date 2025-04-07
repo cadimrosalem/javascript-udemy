@@ -1473,7 +1473,8 @@
        // break e continue
        */
 
-       // Loops Aninhados
+       /*
+       Loops Aninhados
 
        for (let i = 0; i < 24; i++){        
 
@@ -1484,4 +1485,18 @@
                 }
         }
        }
+       */
+
+       /*
+       Desafio 15 - Todas as Tabuadas (0 a 10)
+
+       for (let i = 0; i <= 10; i++){
+        console.log(`Tabuada do ${i}:`)
+
+        for (let j = 0; j <= 10; j++){
+                console.log(`${i} x ${j} = ${i*j}`);
+        }
+        console.log('-------------------')
+       }
+       */
        
