@@ -1491,12 +1491,23 @@
        Desafio 15 - Todas as Tabuadas (0 a 10)
 
        for (let i = 0; i <= 10; i++){
-        console.log(`Tabuada do ${i}:`)
+        console.log(`Tabuada do ${i}:`);
 
         for (let j = 0; j <= 10; j++){
                 console.log(`${i} x ${j} = ${i*j}`);
         }
-        console.log('-------------------')
+        console.log('-------------------');
        }
        */
+
+       // Desafio 16 - Tabuada reversa!
+
+       for (let i = 10; i >= 0; i--){
+        console.log(`Tabuada do ${i}`);
+
+        for (let j = 10; j >= 0; j--){
+                console.log(`${i} x ${j} = ${i*j}`);
+        }
+        console.log('------------------');
+       }
        
