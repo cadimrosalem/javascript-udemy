@@ -1513,7 +1513,8 @@
        }
        */
 
-       // "for...of" loop
+       /*
+       "for...of" loop
        const nums = [2,4,6,8,10,12];
 
        for (let num of nums){
@@ -1533,4 +1534,5 @@
        for (let cor of cores){
         console.log('A cor é', cor);
        }
+       */
        
