@@ -1500,7 +1500,8 @@
        }
        */
 
-       // Desafio 16 - Tabuada reversa!
+       /*
+       Desafio 16 - Tabuada reversa!
 
        for (let i = 10; i >= 0; i--){
         console.log(`Tabuada do ${i}`);
@@ -1509,5 +1510,27 @@
                 console.log(`${i} x ${j} = ${i*j}`);
         }
         console.log('------------------');
+       }
+       */
+
+       // "for...of" loop
+       const nums = [2,4,6,8,10,12];
+
+       for (let num of nums){
+        console.log(num);
+       }
+
+       // Exemplo 2
+       const frutas = ["maçã", "banana", "laranja"];
+
+       for (let fruta of frutas){
+        console.log('Eu gosto de', fruta);
+       }
+
+       // Exemplo 3
+       const cores = ["verde", "amarelo", "azul"];
+
+       for (let cor of cores){
+        console.log('A cor é', cor);
        }
        
