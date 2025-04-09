@@ -1535,4 +1535,46 @@
         console.log('A cor é', cor);
        }
        */
-       
+
+       /*
+       Loop com While
+
+       // Definir a variável
+       let i = 0;
+
+       // Verificar a condição
+       while (i <= 10){
+        console.log(i);
+
+        // Incrementar o contador
+        i++;
+       }
+       */
+      
+       /*
+       Loop de "Varrer" uma array!
+       const nomes = ["Maria", "João", "Pedro", "José"];
+
+       for (let i = 0; i < nomes.length; i++){
+        console.log(`O nome da pessoa é ${nomes[i]}`);
+       }
+
+       let i = 0;
+       while (i < nomes.length){
+        console.log(`Esse é o while do nome ${nomes[i]}`);
+        i++;
+       }
+       */
+
+       /*
+       Loop recursivo
+       for (let i = 10; i >= 0; i--){
+        console.log(i);
+       }
+
+       let i = 10;
+       while (i >= 0){
+        console.log(i);
+        i--;
+       }
+       */
