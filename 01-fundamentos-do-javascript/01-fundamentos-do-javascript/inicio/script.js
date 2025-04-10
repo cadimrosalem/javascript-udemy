@@ -1578,3 +1578,28 @@
         i--;
        }
        */
+
+
+       /*
+       Quando usar For ou While?
+
+       // for = Quando sabe quantas vezes o laço vai se repetir
+       // while = Qaundo não sabe quando o laço vai se repetir
+
+       
+       let continuarMonitorando = true;
+
+       while (continuarMonitorando){
+        // Simular monitoramento
+        console.log("Novos eventos de monitoramento..." + Math.random());
+
+        const resposta = prompt("Deseja continuar monitorando? (s/n");
+
+        if (resposta !== "s"){
+                continuarMonitorando = false;
+                console.log("Monitoramento encerrado");
+        }
+       }
+
+       console.log("Saiu do laço");
+       */
