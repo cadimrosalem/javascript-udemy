@@ -1603,3 +1603,21 @@
 
        console.log("Saiu do laço");
        */
+
+       /*
+       Desafio 17 - Contagem de voltas
+       const totalDeVoltas = 10;
+       let voltaAtual = 1;
+
+       while (voltaAtual <= totalDeVoltas){
+         console.log(`Você está na volta ${voltaAtual}`);
+         voltaAtual++;
+       }
+
+       console.log('Parabéns!');
+       console.log('Você completou todas as voltas da corrida!');
+       */
+
+       
+
+
