@@ -1608,5 +1608,3 @@
        console.log('Parabéns!');
        console.log('Você completou todas as voltas da corrida!');
        */
-
-for (let i = 1; i < 10; i++) {}
