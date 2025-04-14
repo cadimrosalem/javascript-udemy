@@ -1,6 +1,6 @@
-        'use strict';
-        
-        /*
+"use strict";
+
+/*
         Alerta de Olá, Mundo! 
         alert("Olá, Mundo!");
 
@@ -26,7 +26,7 @@
 
         */
 
-        /*
+/*
         let idade;
         idade = 25;
 
@@ -39,9 +39,9 @@
         console.log(idade);
         */
 
-        // Declaração de variável
-        
-        /*
+// Declaração de variável
+
+/*
         var nome = "João";
         console.log(nome);
 
@@ -54,9 +54,9 @@
         var nome = "João";
         */
 
-        // Exibir os valores das variáveis
+// Exibir os valores das variáveis
 
-        /*
+/*
         console.log("Nome: ",nome);
         console.log("Idade: ",idade);
         console.log("Altura: ",altura);
@@ -72,16 +72,15 @@
         console.log("Altura: ",altura);
         console.log("Possui carro? ",possuiCarro);
         */
-        
 
-        /*
+/*
         CamelCase
 
         UpperCamelCase 
         lowerCamelCase
         */
 
-        /*
+/*
         // Variáveis numéricas        
         let idade = 25;
         let altura = 1.75;
@@ -118,13 +117,13 @@
         console.log(typeof valorEnorme);
         */
 
-        /*
+/*
         var: possui um valor global que funciona em qualquer parte do código. (não muito utilizável)
         let: usada para reatribuir um valor.
         const (constante): indica uma variável que não vai mudar.
         */
 
-        /*
+/*
         let nome = "Maria";
         nome = "José";
         console.log(nome)
@@ -132,8 +131,8 @@
         const pi = 3.1415;
         */
 
-        // Operadores Aritméticos
-        /*
+// Operadores Aritméticos
+/*
         Soma:
         const a = 5;
         const b = 3;
@@ -141,7 +140,7 @@
         console.log(soma);
         */
 
-        /*
+/*
         Subtração:
         const a = 8;
         const b = 3;
@@ -149,7 +148,7 @@
         console.log(subtracao);
         */
 
-        /*
+/*
         Multiplicação:
         const a = 4;
         const b = 5;
@@ -157,15 +156,15 @@
         console.log(multiplicacao);
         */
 
-        /*
+/*
         Divisão:
         const a = 10;
         const b = 2;
         const divisao = a / b;
         console.log(divisao);
         */
-        
-        /*
+
+/*
         Módulo (%):
         const a = 10;
         const b = 3;
@@ -173,7 +172,7 @@
         console.log(modulo);
         */
 
-        /*
+/*
         Índice de massa corporal
         const peso = 56; // peso em quilogramas
         const altura = 1.70; // altura em metros
@@ -182,7 +181,7 @@
         console.log(imc.toFixed(2));
         */
 
-        /*
+/*
         Cálculo de média de notas
         const nota1 = 8.75;
         const nota2 = 2.02;
@@ -191,14 +190,14 @@
         console.log(media.toFixed(1));
         */
 
-        /*
+/*
         Converter Celsius -> Farenheit
         const celsius = 100;
         const farenheit = (celsius * 9 / 5) + 32;
         console.log(farenheit);
         */
 
-        /*
+/*
         Cálculo do perímetro e a área de um Círculo
         const pi = 3.14159;
         const raio = 5;
@@ -208,7 +207,7 @@
         console.log(area);
         */
 
-        /*
+/*
         Concatenar String (+)
         const nome = "João";
         const sobrenome = "Silva";
@@ -216,14 +215,14 @@
         console.log(nomeCompleto);
         */
 
-        /*
+/*
         const produto = "canetas";
         const quantidade = 5
         const msg = "Você comprou " + quantidade + " " + produto;
         console.log(msg);
         */
 
-        /*
+/*
         Operador de Incremento (++)
         let a = 5;
         console.log(a);
@@ -231,19 +230,19 @@
         console.log(a);
         */
 
-        /*
+/*
         Operador de Decremento (--)
         let a = 5;
         a--; // a = a - 1;
         console.log(a);
         */
 
-        /*
+/*
         Operador de Atribuição (=)
         let a = 10;
         */
 
-        /*
+/*
         Operador de Atribuição com Incremento (+=)
         let a = 10;
         console.log(a);
@@ -252,27 +251,27 @@
         console.log(a);
         */
 
-        /*
+/*
         Operador de Atrbuição com Decremento (-=)
         let a = 10;
         a -= 4;
         console.log(a);
         */
 
-        /*
+/*
         let num = 20;
         num /= 5; // num = num / 5;        
         console.log(num);
         */
 
-        /*
+/*
         let num = 10;
         num *= 2; // num = num * 2;
         console.log(num);
         */
 
-        // Operadores de Comparação:
-        /*
+// Operadores de Comparação:
+/*
         Igualdade (==)
         const a = 5;
         const b = 6;
@@ -280,7 +279,7 @@
         console.log(a == a); // true
         */
 
-        /*
+/*
         Diferente (!=)
         const a = 5;
         const b = 6;
@@ -289,7 +288,7 @@
         console.log(b != c); // false (b não é diferente de c);
         */
 
-        /*
+/*
         Menor (<)
         const a = 2;
         const b = 1;
@@ -297,7 +296,7 @@
         console.log(b < a); // true (b é menor que a);
         */
 
-        /*
+/*
         Maior (>) / Maior igual (>=)
         const a = 2;
         const b = 1;
@@ -311,7 +310,7 @@
         console.log(a >= c + b); // false
         */
 
-        /*
+/*
         Menor igual (<=)
         const a = 2;
         const b = 2;
@@ -323,21 +322,21 @@
         console.log(d <= c - a); // false
         */
 
-        /*
+/*
         Verificar se um número é positivo
         let num = 5;
         let positivo = (num > 0);
         console.log("O número é positivo?", positivo); // true
         */
 
-        /*
+/*
         Verificar se um número é par
         let num = 5;
         let par = (num % 2) == 0
         console.log("O número", num, "é par?", par); // false
         */
 
-        /*
+/*
         const res = (5 + 3) * 2;
         console.log(res);
 
@@ -348,7 +347,7 @@
         console.log(potencia);
         */
 
-        /*
+/*
         Analisando a Precedência de Operadores
         const res = 10 - 2 + 3 > 5; // true
         console.log(res);
@@ -360,7 +359,7 @@
         console.log(divisao);
         */
 
-        /*
+/*
         Strings e Templates Literais
         const mensagem = "Olá, Mundo!";
         const nome = "Maria";
@@ -369,20 +368,20 @@
         console.log(mensagem);
         */
 
-        /*
+/*
         const cumprimento = "Olá";
         const nome = "João";
         const mensagem = `${cumprimento} ${nome}, Seja bem vindo!`;
         console.log(mensagem);
         */
 
-        /*
+/*
         const idade = 25;
         const texto = `Eu tenho ${idade} anos.`;
         console.log(texto);
         */
 
-        /*
+/*
         Prompt
         const nome = prompt('Qual é o seu nome?');
         console.log(`Olá, ${nome}, seja bem vindo!`);
@@ -392,7 +391,7 @@
         console.log(`O número informado é ${numero} e o seu quadrado é ${quadrado}.`);
         */
 
-       /*
+/*
 
        If - Estrutura condicional
 
@@ -408,21 +407,21 @@
        console.log('Fim');
        */
 
-       /*
+/*
        let logado = true;
        if (logado){
         console.log('Bem vindo, usuário!');
        }
        */
-      
-       /*
+
+/*
        let num = 1;
        if (num != 0){
         console.log('Diferente de zero')
        }
        */
-      
-       /*
+
+/*
        let idade = 18;
        if (idade >= 18){
         console.log('Você é maior de idade');
@@ -430,8 +429,8 @@
         console.log('Você é menor de idade')
        }
        */
-      
-       /* 
+
+/* 
        Exemplos do IF
 
        let tecla = " "; // Atribuir um valor
@@ -442,7 +441,7 @@
        }
        */
 
-       /*
+/*
        Verificar se um número é par
        
        const num = 140;
@@ -452,8 +451,8 @@
         console.log(`O número ${num} é ímpar`)
        }
        */
-      
-       /*
+
+/*
        Passou de ano?
 
        const mGeral = 60; // de 0 a 100
@@ -465,8 +464,8 @@
         console.log('Você não passou de ano!')
        }
        */
-      
-       /*
+
+/*
         Conferir a senha
 
        const palavraSecreta = "8j7w";
@@ -478,9 +477,9 @@
         console.log('Você não acertou a senha!')
         console.log('Acesso ao sistema bloqueado')
        }
-       */ 
+       */
 
-       /*
+/*
        Conversão e Coerção de tipos
        const preco = '50';
        const juros = 2
@@ -497,7 +496,7 @@
        console.log(res);
        */
 
-       /*
+/*
        Brincar de adivinhação     
        let res = 10;
        console.log(res);  
@@ -517,9 +516,8 @@
        res = res + Number("5"); // O sinal de + não server só para somar dois valores, mas também para concatenar duas strings.
        console.log(res);
        */
-      
-       
-       /*
+
+/*
        Conversão e Coersão de Booleanos
 
        let verdadeiro = true;
@@ -544,7 +542,7 @@
        console.log(booleanoNum);
        */
 
-       /*
+/*
        Coersão de Booleano para String
 
        let booleanoV = true;
@@ -560,7 +558,7 @@
        console.log(stringBooleanoF); // false
        */
 
-       /*
+/*
        String para Booleano 
 
        const txt = "Olá!"; // Com a string vazia = false
@@ -568,7 +566,7 @@
        console.log(booleanoTxt); // true
        */
 
-       /*
+/*
         Valores Falsos
        0
        undefined
@@ -620,7 +618,7 @@
        }
        */
 
-       /*
+/*
        Diferença entre == e ===
        == igualdade abstrata (compara os valores)
        === igualdade absoluta / estrita (compara o tipo)
@@ -649,8 +647,8 @@
         console.log('Acesso negado');
        }
        */
-      
-       /*
+
+/*
        Lógica Booleana
        And Or Not
        && || !
@@ -695,8 +693,8 @@
         console.log('Não pode tirar passaporte!');
        }
        */
-      
-       /*
+
+/*
        const possuiIdentidade = true;
        const br = true;
        const maiorIdade = true;
@@ -709,8 +707,8 @@
         console.log('Não pode tirar o passaporte!');
        }
        */
-      
-       /* 
+
+/* 
        Operadores lógicos - Ampliação
 
        // Declaração das variáveis
@@ -765,8 +763,8 @@
         console.log('Você não possui um meio de transporte');
        }
        */
-      
-       /*
+
+/*
        If, Else e Else if
 
        let idade = 18;
@@ -779,8 +777,8 @@
         console.log('Você tem menos de 18 anos.');
        }
        */
-      
-       /*
+
+/*
        acima de 100 reais, desconto de 10%
        entre 100 e 50, desconto de 5%
        abaixo de 50, sem desconto
@@ -796,7 +794,7 @@
        }
        */
 
-       /*      
+/*      
        let preco = 51;
 
        if (preco > 100){
@@ -812,7 +810,7 @@
        }
        */
 
-       /*
+/*
        // media > 7 bom
        // entre 5 e 7 razoável
        // abaixo de 5 ruim
@@ -832,7 +830,7 @@
        }
        */
 
-       /*
+/*
        Switch
 
        switch (valor){
@@ -872,8 +870,7 @@
        }
        */
 
-      
-       /*
+/*
        Operador Condicional Ternário (?:.)
 
        let msg;
@@ -888,7 +885,7 @@
        console.log(msg);
        */
 
-       /*
+/*
        sintaxe
        condição ? valorSeVerdadeira : ValorSeFalso;       
 
@@ -899,7 +896,7 @@
        console.log(msg);
        */
 
-       /*
+/*
        const num = 18;
        let msg = '';
        
@@ -914,7 +911,7 @@
        console.log(msg);
        */
 
-       /*
+/*
        saudacao
        Bom dia hora < 12
        Boa tarde >= 12
@@ -926,7 +923,7 @@
        console.log(saudacao);
        */
 
-       /*
+/*
        let idade = 18;
        let ver = idade >= 18 ? 'Maior de idade' : 'Menor de idade';
        console.log(`Você é ${ver}`);
@@ -936,7 +933,7 @@
        console.log(`Você é ${idade >= 18 ? 'Maior de idade' : 'Menor de idade'}`);
        */
 
-       /*
+/*
        Modo Estrito (strict mode)
        'use strict';
        
@@ -953,7 +950,7 @@
        console.log(msg);
        */
 
-       /*
+/*
        function saudacao(){
         console.log('Olá, pessoal!');
        }
@@ -963,7 +960,7 @@
        saudacao();
        */
 
-       /*
+/*
        function padaria(farinha, agua){
         console.log(farinha, agua);
         const pao = `Fizemos pães usando ${farinha} de farinha e ${agua} de água`;
@@ -974,7 +971,7 @@
        console.log(padaria(5, 8));
        */
 
-       /*
+/*
        Função de Dobro
        function dobra(valor){
         return valor * 2;
@@ -983,7 +980,7 @@
        console.log(dobra(4));
        */
 
-       /*
+/*
        Função de Soma
        function soma(num1, num2){
         return num1 + num2;
@@ -992,7 +989,7 @@
        console.log(soma(2, 4));
        */
 
-       /*
+/*
        Diferença entre Declaração de Função e Expressão de Função
 
        // Declaração de Função       
@@ -1025,7 +1022,7 @@
        console.log(dobra2(7)); 
        */
 
-       /*
+/*
        Arrow Functions
 
        // Declarar função "Normal"
@@ -1046,7 +1043,7 @@
        console.log(saudacao3('Ricardo'));
        */
 
-       /*
+/*
        Versão 1
        function dobro(num){
         return num * 2;
@@ -1060,7 +1057,7 @@
        console.log(dobro(25));
        */
 
-       /*
+/*
        function soma(a, b){
         return a + b;
        }
@@ -1070,8 +1067,7 @@
        console.log(soma2(2, 4));
        */
 
-
-       /*
+/*
        Funções que chamam funções
        function dobro(num){
         return num * 2;
@@ -1101,8 +1097,7 @@
        verNum(6);
        */
 
-
-       /*
+/*
        Funções Recursivas
        function fatorial(num){
         if (num === 1){
@@ -1125,8 +1120,7 @@
        // 2! = 2 x 1
        */
 
-
-       /*
+/*
        Sequência Fibonacci
        1 1 2 3 5 8 13 21
        
@@ -1146,7 +1140,7 @@
        console.log(fibonacci(10));
        */
 
-       /*
+/*
        Revisão de Funções
 
        // Declaração de Função
@@ -1169,7 +1163,7 @@
        console.log(saudacaoAr('João'));
        */
 
-       /*
+/*
        Arrays
        const nomes = ["Ana", "João", "Maria"];
 
@@ -1188,12 +1182,12 @@
        console.log(pessoa);
        */
 
-       /*
+/*
        Estados Brasileiros
        const estados = ["AC", "AL", "AP", "AM"];
        */
 
-       /*
+/*
        Funções com Arrays:
        Push - UnShift - Pop - Shift - IndexOf - Includes
 
@@ -1223,7 +1217,7 @@
        console.log(frutas.includes('Banana')); // Retorna se encontrou ou não
        */
 
-       /*
+/*
        Estados da região Sul
        const esDoSul = ["RS", "SC", "PR"];
        let esFornecido = "RS";
@@ -1234,8 +1228,8 @@
         console.log('Não encontrado');
        }
        */
-      
-       /*
+
+/*
        Números por extenso (de 0 a 19) com Arrays
        function numPorExt(num){
         if (num < 0 || num > 19){
@@ -1269,7 +1263,7 @@
        console.log(numPorExt(19));
        */
 
-       /*
+/*
        Objetos
 
        // Exemplo de Array
@@ -1307,7 +1301,7 @@
        console.log(carroObjeto);
        */
 
-       /*
+/*
        Objeto: ponto ou colchete
 
        const pessoa = {
@@ -1326,8 +1320,7 @@
        console.log(pessoa[valor]);
        */
 
-      
-       /*
+/*
        O Objeto Math
 
        const base = 2;
@@ -1341,7 +1334,7 @@
        console.log(raizQuadrada);
        */
 
-       /*
+/*
        Arredondar 
 
        let num = 123456;
@@ -1354,7 +1347,7 @@
        // Math.floor
        */
 
-       /*
+/*
        Valor Absoluto
        // 5 -> 5
        // -5 -> 5
@@ -1364,8 +1357,7 @@
        console.log(Math.abs(num));
        */
 
-       
-       /*
+/*
        Métodos dos Objetos
 
        const pessoa = {
@@ -1395,8 +1387,8 @@
        console.log(circulo.calcularArea());
        console.log(circulo.area);
        */
-      
-       /*
+
+/*
 
        // Tabuada
        const tabuada = function(num){
@@ -1408,7 +1400,7 @@
        tabuada(2);
        */
 
-       /*
+/*
        Calculando fatorial 
 
        function calcularFatorial(num){ // 4
@@ -1423,9 +1415,9 @@
        let fatorial = calcularFatorial(fatorado);
 
        console.log(`O fatorial de ${fatorado} é ${fatorial}.`);
-       */  
+       */
 
-       /*
+/*
        Loop de Array
        const frutas = [
         "banana",
@@ -1473,7 +1465,7 @@
        // break e continue
        */
 
-       /*
+/*
        Loops Aninhados
 
        for (let i = 0; i < 24; i++){        
@@ -1487,7 +1479,7 @@
        }
        */
 
-       /*
+/*
        Desafio 15 - Todas as Tabuadas (0 a 10)
 
        for (let i = 0; i <= 10; i++){
@@ -1500,7 +1492,7 @@
        }
        */
 
-       /*
+/*
        Desafio 16 - Tabuada reversa!
 
        for (let i = 10; i >= 0; i--){
@@ -1513,7 +1505,7 @@
        }
        */
 
-       /*
+/*
        "for...of" loop
        const nums = [2,4,6,8,10,12];
 
@@ -1536,7 +1528,7 @@
        }
        */
 
-       /*
+/*
        Loop com While
 
        // Definir a variável
@@ -1550,8 +1542,8 @@
         i++;
        }
        */
-      
-       /*
+
+/*
        Loop de "Varrer" uma array!
        const nomes = ["Maria", "João", "Pedro", "José"];
 
@@ -1566,7 +1558,7 @@
        }
        */
 
-       /*
+/*
        Loop recursivo
        for (let i = 10; i >= 0; i--){
         console.log(i);
@@ -1579,8 +1571,7 @@
        }
        */
 
-
-       /*
+/*
        Quando usar For ou While?
 
        // for = Quando sabe quantas vezes o laço vai se repetir
@@ -1604,7 +1595,7 @@
        console.log("Saiu do laço");
        */
 
-       /*
+/*
        Desafio 17 - Contagem de voltas
        const totalDeVoltas = 10;
        let voltaAtual = 1;
@@ -1618,6 +1609,4 @@
        console.log('Você completou todas as voltas da corrida!');
        */
 
-       
-
-
+for (let i = 1; i < 10; i++) {}
