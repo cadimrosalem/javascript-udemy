@@ -1661,6 +1661,9 @@ function calculator(operation, x, y) {
 
 calculator("add", 10, 5);
 calculator("subtract", 20, 8);
-debugger;
 calculator("multiply", 7, 3);
 calculator("divide", 100, 4);
+
+function saudação() {
+  console.log("Olá!");
+}
