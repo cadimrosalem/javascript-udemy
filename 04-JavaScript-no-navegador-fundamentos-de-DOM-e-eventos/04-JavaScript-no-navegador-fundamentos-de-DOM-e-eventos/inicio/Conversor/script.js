@@ -12,6 +12,15 @@ convertButton.addEventListener("click", function () {
 
   const unitSelector = document.getElementById("unit-selector").value;
 
+  if (valueToConvert === 0 || valueToConvert === "" || isNaN(valueToConvert)){
+    result.textContent = "Informe um valor diferente de 0";
+    result.style.backgroundColor = "red";
+    result.style.color = "white";
+    result.classList.remove(".blueMessage");
+    result.classList.add(".redMessage");
+    return;
+  }
+
   let calculated;
 
   switch (unitSelector) {
@@ -19,6 +28,9 @@ convertButton.addEventListener("click", function () {
       // lógica caso o valor seja CM
       calculated = valueToConvert * 0.393701;
       result.textContent = `${valueToConvert} cm é igual a ${calculated.toFixed(2)} polegadas`
+      result.style.color = "blue";
+      result.classList.remove(".redMessage");
+      result.classList.add(".blueMessage");
       break;
 
     case "in":
@@ -41,5 +53,6 @@ convertButton.addEventListener("click", function () {
 
     default:
       // Nenhuma das opções
+      result.textContent = `Selecione uma opção válida`;
   }
 });
