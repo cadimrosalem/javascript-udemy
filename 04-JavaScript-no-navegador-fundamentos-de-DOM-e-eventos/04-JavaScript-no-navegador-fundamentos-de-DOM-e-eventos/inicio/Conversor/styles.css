@@ -55,14 +55,14 @@ button:hover {
   font-weight: bold;
 }
 
-.blueMessage {
+.normalMessage {
   background-color: white;
   padding: 10px;
-  color: blue;
+  color: rgb(14, 14, 190);
 }
 
-.redMessage {
-  background-color: red;
+.errorMessage {
+  background-color: rgb(167, 19, 19);
   padding: 10px;
   color: white;
 }
