@@ -36,11 +36,11 @@ function resetGame() {
   dice1.src = "dice-1.png";
   dice2.src = "dice-1.png";
   turnText.style.color = "black";
-};
+}
 
 // Escutar o botão jogar
 rollButton.addEventListener("click", function () {
-  console.log("Rolando os dados...");  
+  console.log("Rolando os dados...");
 
   // Gerar números aleatórios de 1 a 6
   const roll1 = Math.floor(Math.random() * 6) + 1;
@@ -69,6 +69,23 @@ rollButton.addEventListener("click", function () {
       rollButton.style.display = "none";
       rollButton.disable = true;
     } else {
+      if (player1Total >= 20) {
+        turnText.innerText = "O Jogador 1 venceu";
+        turnText.style.color = "red";
+        // Esconder o botão jogar dados
+        rollButton.style.display = "none";
+        rollButton.disable = true;
+        return;
+      }
+
+      if (roll1 === roll2) {
+        turnText.innerText = "O Jogador 1 venceu - Regra da dupla vantagem";
+        turnText.style.color = "red";
+        // Esconder o botão jogar dados
+        rollButton.style.display = "none";
+        rollButton.disable = true;
+      }
+
       // Passar o turno para o Jogador 2
       currentPlayer = 2;
     }
@@ -88,6 +105,23 @@ rollButton.addEventListener("click", function () {
       rollButton.style.display = "none";
       rollButton.disable = true;
     } else {
+      if (player2Total >= 20) {
+        turnText.innerText = "O Jogador 2 venceu";
+        turnText.style.color = "red";
+        // Esconder o botão jogar dados
+        rollButton.style.display = "none";
+        rollButton.disable = true;
+        return;
+      }
+
+      if (roll1 === roll2) {
+        turnText.innerText = "O Jogador 2 venceu - Regra da dupla vantagem";
+        turnText.style.color = "red";
+        // Esconder o botão jogar dados
+        rollButton.style.display = "none";
+        rollButton.disable = true;
+      }
+
       // Passar o turno para o Jogador 1
       currentPlayer = 1;
     }
@@ -95,4 +129,3 @@ rollButton.addEventListener("click", function () {
 });
 
 resetGame();
-
